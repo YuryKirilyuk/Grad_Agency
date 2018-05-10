@@ -10,8 +10,12 @@
           <option name="url" value="https://tfs.cyberianconcepts.com/tfs/DefaultCollection/ReconPro-Scrum/_git/ReconPro-vNext" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://Yury_Kirilyuk@bitbucket.org/Yury_Kirilyuk/osf-academy-frontend-yury-kirilyuk.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Dropbox\reconPro-vNext" />
+    <option name="cloneParentDir" value="D:\Git\OSFAcademy" />
   </component>
 </application>
