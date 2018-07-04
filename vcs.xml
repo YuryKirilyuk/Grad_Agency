@@ -14,8 +14,12 @@
           <option name="url" value="https://Yury_Kirilyuk@bitbucket.org/Yury_Kirilyuk/osf-academy-frontend-yury-kirilyuk.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/YuryKirilyuk/forgrant.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Git\OSFAcademy" />
+    <option name="cloneParentDir" value="D:\Git\forgrant\app" />
   </component>
 </application>
