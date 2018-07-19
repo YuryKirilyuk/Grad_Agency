@@ -5,19 +5,26 @@ $base-bg: #FFF;
 $base-font-size: 1.3rem; 
 $base-line-height: 1.8rem; 
 $base-font-family: Arial, sans-serif; 
-$custom-font-family: 'Open Sans', sans-serif; 
-$link-color: #100da9;
+$custom-font-family: 'Open Sans', sans-serif;
 
 
 /* main variables */
 
-$main-color: #333;
+$black: #000;
+$dark: #313030;
+$red: #ff2d2d;
+$beige: #f5f0dd;
+$grey: #e5e5e5;
+
+$main-color: $black;
+$main-color2: $red;
 
 
+$link-color: $main-color;
 
 //text, titles
-$text-color: #000;
-$title-color: #000;
+$text-color: $black;
+$title-color: $black;
 $title-font-family: $custom-font-family;
 
 $font-size-h1: 3.6rem;
@@ -30,20 +37,4 @@ $line-height-h3: 3.2rem;
 $headerHeight: 8rem;
 $footerHeight: 8rem;
 
-$default-transition:all .2s linear;
-
-/* Grid */
-$vertical-gutter: 2rem;
-$horizontal-gutter: 2rem;
-
-						//.col-2-of-3
-@function grid($col, $numOfCol){
-	$numOfGutters: $numOfCol - 1; //number of gutters between columns in a row
-	$addGutter: ($col - 1) * $horizontal-gutter; //number of gutters, width of which should be added to column
-	
-	$width: calc( 
-		(((100% - #{$horizontal-gutter} * #{$numOfGutters}) / #{$numOfCol}) * #{$col}) + #{$addGutter}							
-	);
-
-	@return $width;
-}
+$default-transition: all .2s linear;
