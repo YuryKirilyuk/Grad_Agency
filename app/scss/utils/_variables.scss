@@ -1,40 +1,47 @@
-/* reset */
-$min-width: 320px; 
-$max-width: 1200px; 
-$base-bg: #FFF; 
-$base-font-size: 1.3rem; 
-$base-line-height: 1.8rem; 
-$base-font-family: 'Poppins', sans-serif;
-$custom-font-family: 'Open Sans', sans-serif;
 
+/* colors */
 
-/* main variables */
-
+$white: #fff;
 $black: #000;
-$dark: #313030;
+$dark: #2d2d43;
 $red: #ff2d2d;
-$beige: #f5f0dd;
-$grey: #e5e5e5;
+$blue: #4451fc;
+$grey: #656770;
+$grey-dark: #404250;
+$grey-light: #ccc;
 
 $main-color: $black;
 $main-color2: $red;
-
-
 $link-color: $main-color;
 
+/* main variables */
+
+
+$min-width: 320px; 
+$max-width: 1230px;
+$base-bg: $white;
+$base-font-size: 1.6rem;
+$base-line-height: 1.8rem; 
+$base-font-family: 'Poppins', sans-serif;
+$custom-font-family: 'Lato', sans-serif;
+
+
 //text, titles
-$text-color: $black;
-$title-color: $black;
-$title-font-family: $custom-font-family;
+$text-color: #696969;
+$title-color: $dark;
+$title-font-family: $base-font-family;
+$title-font-weight: 600;
 
-$font-size-h1: 3.6rem;
-$line-height-h1: 4.2rem;
-$font-size-h2: 3.2rem;
-$line-height-h2: 3.7rem;
-$font-size-h3: 2.8rem;
-$line-height-h3: 3.2rem;
+$font-size-h1: 6rem;
+$line-height-h1: 8rem;
+$font-size-h2: 3.6rem;
+$line-height-h2: 4.8rem;
+$font-size-h3: 2.4rem;
+$line-height-h3: 6rem;
+$font-size-h4: 1.6rem;
+$line-height-h4: 6rem;
 
-$headerHeight: 8rem;
+$headerHeight: 92rem;
 $footerHeight: 8rem;
 
 $default-transition: all .2s linear;

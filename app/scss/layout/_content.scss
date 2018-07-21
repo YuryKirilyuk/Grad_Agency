@@ -2,71 +2,53 @@
 //main styles
 
 .main-wrapper{
-	padding: 0 0 0 0;
-	min-width: $min-width;
-  width: 100%;
-	position: relative;
-	overflow: hidden;
-	min-height:100%;
 	display: flex;
 	flex-direction:column;
 	justify-content:flex-start;
+  min-height: 100%;
+  min-width: $min-width;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
 }
+
 .wrapper{
+  margin: 0 auto;
+  max-width: $max-width;
 	min-width: $min-width;
-	max-width: $max-width;
-	padding: 0 2rem;
-	margin: 0 auto;
+	padding: 0 3rem;
 	position: relative;
+  width: 100%;
 }
 
 /* titles */
 p{	
-	@include font($base-font-size,$base-line-height,$text-color);
+	@include font($base-font-size, $base-line-height, $text-color);
 	padding: 1.5rem 0;
 	font-weight: 400;	
 }
 h1{	
-	@include font($font-size-h1,$line-height-h1,$title-color);
-	font-family: $title-font-family;
+	@include font($font-size-h1, $line-height-h1, $white);
+	font-weight: $title-font-weight;
 	padding: 1.5rem 0;
-	font-weight: 400;	
 }
 h2{
-	@include font($font-size-h2,$line-height-h2,$title-color);
-	font-family: $title-font-family;
+	@include font($font-size-h2, $line-height-h2, $title-color);
+  font-weight: $title-font-weight;
 	padding: 1.5rem 0;
-	font-weight: 400;	
 }
 h3{
-	@include font($font-size-h3,$line-height-h3,$title-color);
-	font-family: $title-font-family;
+	@include font($font-size-h3, $line-height-h3, $title-color);
+  font-weight: $title-font-weight;
 	padding: 1.5rem 0;
-	font-weight: 400;
 }
 
 /* text position */
-.text-left{text-align: left!important}
-.text-center{text-align: center!important}
-.text-right{text-align: right!important}
-.nowrap{white-space: nowrap!important;}
-
-
-/* loader */
-.loaded .main-wrapper{visibility:hidden;}
-.icon-load {
-	background: url(../img/loader.gif) no-repeat left top;
-	width: 4rem;
-	height: 4rem;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -2rem;
-	margin-left: -2rem;
-	display: none;
-}
-.loaded .icon-load{display:block;}
-
+.text-left {text-align: left !important}
+.text-center {text-align: center !important}
+.text-right {text-align: right !important}
+.nowrap {white-space: nowrap !important;}
 
 /*
 ================================================================================
@@ -74,10 +56,35 @@ h3{
 ================================================================================
 */
 .content{	
-	background: #fff000;
+	background: $base-bg;
 	flex-grow: 1;
 	min-width: $min-width;
 	order: 2;
-	text-align:left;
+	text-align: left;
   width: 100%;
 }
+
+
+.service {
+  background: linear-gradient(to right, $blue 50%, transparent 0),
+              linear-gradient($grey 50%, $white 0);
+  .wrapper {
+    background-color: $blue;
+    color: #fff;
+    height: 33rem;
+    right: 3rem;
+  }
+}//.service
+
+
+.contact {
+  background: linear-gradient(to right, $blue 50%, transparent 0),
+              linear-gradient($white 50%, #4c4e5a 0);
+  .wrapper {
+    background-color: $blue;
+    color: #fff;
+    height: 54.5rem;
+    padding-left: 6rem;
+    right: 3rem;
+  }
+}//.service
