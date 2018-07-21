@@ -4,32 +4,25 @@
 |                                     FOOTER                                   |
 ================================================================================
 */
-footer{
-	background: #000; 	
-	height: $footerHeight; 
-	min-width: $min-width;
-	order: 3;	
-	width: 100%;
-}
+footer {
+	background: #4c4e5a;
+	color: #e6e5e5;
+	font-family: $custom-font-family;
+	order: 3;
+	p {color: #e6e5e5;}
+
+	.copyright{
+		background: $grey-dark;
+		color: #b6b5b9;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: $footerHeight;
+		min-width: $min-width;
+		line-height: 3.6rem;
+		text-align: center;
+		width: 100%;
+	}
+}//footer
 
 
-
-@media screen and (max-width: 1200px) {
-	
-}
-
-@media screen and (min-width: 992px){
-	
-}
-
-@media screen and (max-width: 991px) {
-	
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	
-}
-
-@media screen and (max-width: 767px) {
-	
-}

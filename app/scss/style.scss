@@ -5,11 +5,8 @@
 @import "base/fonts";
 
 //@import "vendor/jquery.formstyler";
-//@import "vendor/fancybox";
-//@import "vendor/slick";
-//@import "vendor/mCustomScrollbar";
+@import "vendor/slick";
 
-//@import "layout/grid";
 @import "layout/common";
 @import "layout/animation";
 @import "layout/header";
@@ -17,5 +14,4 @@
 @import "layout/content";
 @import "layout/btn";
 @import "layout/partials";
-@import "layout/media";
 

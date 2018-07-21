@@ -6,16 +6,18 @@
 	padding: 0px;
 }
 
+html {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
 
 body {
-	margin: 0px;
-	padding: 0px;
-	font-family: $base-font-family;
 	background-color: $base-bg;
+	font-size: $base-font-size!important;
 	height: 100%;
 	line-height: 1;
 	position: relative;
-	font-size: $base-font-size!important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -47,15 +49,8 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-width: 0px;
-	padding: 0px;
-	margin: 0px;
 }
 
-html {
-	height: 100%;
-	-webkit-text-size-adjust: none;
-	-ms-text-size-adjust: none;
-}
 
 input,
 textarea {
@@ -72,19 +67,9 @@ button {
 	cursor: pointer
 }
 
-td {
-	margin: 0px;
-	padding: 0px;
-}
-
-form {
-	padding: 0px;
-	margin: 0px;
-}
-
 a {
 	color: $link-color;
-	@include transition($default-transition);
+	transition: $default-transition;
 	text-decoration: none;
 	outline: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -102,15 +87,4 @@ input[type=button],
 button {
 	-webkit-appearance: none;
 	outline: none;
-}
-
-
-.clearfix:after,
-.wrapper:after,
-.row:after{
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
 }
