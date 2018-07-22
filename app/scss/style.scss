@@ -1,17 +1,25 @@
 @import 'utils/variables';
 @import 'utils/mixins';
+@import 'utils/placeholders';
 
 @import "base/reset";
 @import "base/fonts";
 
-//@import "vendor/jquery.formstyler";
 @import "vendor/slick";
 
 @import "layout/common";
-@import "layout/animation";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/content";
 @import "layout/btn";
-@import "layout/partials";
+
+@import "partials/header_top";
+@import "partials/navigation";
+@import "partials/section_service";
+@import "partials/section_about";
+@import "partials/section_works";
+@import "partials/section_clients";
+@import "partials/section_contact";
+
+
 

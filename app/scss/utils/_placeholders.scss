@@ -1,0 +1,30 @@
+%logo {
+  background: url(../img/logo.png) no-repeat center;
+  background-size: cover;
+  display: block;
+}
+
+%link-hover {
+  display: inline-block;
+  line-height: 2.6rem;
+  padding: .5rem 0;
+  position: relative;
+  &:after {
+    background-color: #fff;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 0;
+    transition: $default-transition;
+  }
+  &:hover {
+    color: $white;
+    &:after {
+      width: 100%;
+    }
+  }
+}//%link-hover

@@ -1,0 +1,19 @@
+.clients {
+  padding: 10rem 0;
+  @media screen and (max-width: 768px){
+    padding: 5rem 0;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 600px){
+      justify-content: center;
+    }
+    li {
+      margin: 2rem;
+      min-width: 11.5rem;
+      text-align: center;
+    }
+  }//.clients-list
+}//.clients
