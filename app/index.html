@@ -26,31 +26,37 @@
 				<div class="wrapper">
 					<div class="item">
 						<div class="item__image">
-
+							<img alt="" src="img/digital.png" />
 						</div>
-						<div class="item__title">Digital Branding</div>
-						<div class="item__text">
-							We can help you find the precise message to clearly speak to who you are as a company.
-						</div>
-					</div><!-- //.item -->
-
-					<div class="item">
-						<div class="item__image">
-
-						</div>
-						<div class="item__title">Web Interactive</div>
-						<div class="item__text">
-							We can help you find the precise message to clearly speak to who you are as a company.
+						<div class="item__info">
+							<h3 class="item__title">Digital Branding</h3>
+							<div class="item__text">
+								We can help you find the precise message to clearly speak to who you are as a company.
+							</div>
 						</div>
 					</div><!-- //.item -->
 
 					<div class="item">
 						<div class="item__image">
-
+							<img alt="" src="img/web.png" />
 						</div>
-						<div class="item__title">Graphic Design</div>
-						<div class="item__text">
-							We can help you find the precise message to clearly speak to who you are as a company.
+						<div class="item__info">
+							<h3 class="item__title">Web Interactive</h3>
+							<div class="item__text">
+								We can help you find the precise message to clearly speak to who you are as a company.
+							</div>
+						</div>
+					</div><!-- //.item -->
+
+					<div class="item">
+						<div class="item__image">
+							<img alt="" src="img/graphic.png" />
+						</div>
+						<div class="item__info">
+							<h3 class="item__title">Graphic Design</h3>
+							<div class="item__text">
+								We can help you find the precise message to clearly speak to who you are as a company.
+							</div>
 						</div>
 					</div><!-- //.item -->
 
@@ -58,70 +64,86 @@
 			</section><!-- //.service -->
 
 
-			<section>
+			<section class="about">
 				<div class="wrapper">
-					<h4>About us</h4>
+					<h4 class="center">About us</h4>
 					<h2>We're a design studio that believe in the power of great ideas.</h2>
-					<div class="about">
+					<div class="about__items">
 						<div class="item">
-							<div class="item__image"></div>
+							<div class="item__image"><img alt="" src="img/development.png" /></div>
 							<div class="item__title">Development</div>
 							<div class="item__text">We can help you find the precise message to clearly speak to who you are as a company.</div>
 						</div><!-- //.item -->
 
 						<div class="item">
-							<div class="item__image"></div>
+							<div class="item__image"><img alt="" src="img/design.png" /></div>
 							<div class="item__title">Design</div>
 							<div class="item__text">We can help you find the precise message to clearly speak to who you are as a company.</div>
 						</div><!-- //.item -->
 
 						<div class="item">
-							<div class="item__image"></div>
+							<div class="item__image"><img alt="" src="img/strategy.png" /></div>
 							<div class="item__title">Stretagy</div>
 							<div class="item__text">We can help you find the precise message to clearly speak to who you are as a company.</div>
 						</div><!-- //.item -->
-					</div><!-- //.about -->
+					</div><!-- //.about__items -->
 				</div><!-- //.wrapper -->
 			</section>
 
 
-			<section>
-				<div class="slider">
-					our works
-				</div><!-- //.wrapper -->
-			</section>
-
-
-			<section>
+			<section class="works">
 				<div class="wrapper">
-					clients
+					<h4 class="left">our works</h4>
+					<h2>Bring to better disruptive view of innovation. </h2>
 				</div><!-- //.wrapper -->
+				<div class="slider">
+					<ul>
+						<li></li>
+					</ul>
+
+				</div>
 			</section>
+
+
+			<section class="clients">
+				<div class="wrapper">
+					<ul class="clients__list">
+						<li><img alt="" src="img/dm4__client_01-min.png" /></li>
+						<li><img alt="" src="img/dm4__client_02-min.png" /></li>
+						<li><img alt="" src="img/dm4__client_03-min.png" /></li>
+						<li><img alt="" src="img/dm4__client_04-min.png" /></li>
+						<li><img alt="" src="img/dm4__client_05-min.png" /></li>
+						<li><img alt="" src="img/dm4__client_06-min.png" /></li>
+					</ul>
+				</div><!-- //.wrapper -->
+			</section><!-- //.clients -->
 
 
 			<section class="contact">
 				<div class="wrapper">
 					<div>
-						<h4>Have a Project?</h4>
+						<h4 class="left">Have a Project?</h4>
 						<h2>Get in touch with us</h2>
 					</div>
-					<form>
-						<div class="form-group">
-							<input id="name" class="form-control" type="text" placeholder="Name *" />
-							<label for="name">Name</label>
+					<form class="form">
+						<div class="form__group">
+							<input id="name" class="form__input" type="text" placeholder="Name *" />
+							<label class="form__label" for="name">Name</label>
 						</div>
-						<div class="form-group">
-							<input id="email" class="form-control" type="email" placeholder="Email *" />
-							<label for="email">Email</label>
+						<div class="form__group">
+							<input id="email" class="form__input" type="email" placeholder="Email *" />
+							<label class="form__label" for="email">Email</label>
 						</div>
-						<div class="form-group">
-							<input id="subject" class="form-control" type="text" placeholder="Subject *" />
-							<label for="subject">Subject</label>
+						<div class="form__group">
+							<input id="subject" class="form__input" type="text" placeholder="Subject *" />
+							<label class="form__label" for="subject">Subject</label>
 						</div>
-						<textarea class="form-control" rows="3"></textarea>
+						<textarea id="messege" class="form__input" rows="4" placeholder="Messege *"></textarea>
+						<label class="form__label" for="messege">Messege</label>
+						<button class="btn">Send Meesage</button>
 					</form>
 				</div><!-- //.wrapper -->
-			</section>
+			</section><!-- //.contact -->
 
 	</main>
 			
@@ -134,25 +156,31 @@
 		<div class="header-top">
 			<div class="wrapper">
 				<a class="logo" href="/"></a>
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="#">Pages</a><i class="fas fa-chevron-down"></i></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Service</a><i class="fas fa-chevron-down"></i></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+				<nav class="navigation">
+					<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+					<label for="navi-toggle" class="navigation__button">
+						<span class="navigation__icon"></span>
+					</label>
+
+					<ul class="navigation__list">
+						<li><a class="navigation__item" href="/">Home</a></li>
+						<li><a class="navigation__item"  href="#">Pages</a> <i class="fas fa-chevron-down"></i></li>
+						<li><a class="navigation__item"  href="#">About</a></li>
+						<li><a class="navigation__item"  href="#">Service</a> <i class="fas fa-chevron-down"></i></li>
+						<li><a class="navigation__item"  href="#">Portfolio</a></li>
+						<li><a class="navigation__item"  href="#">Blog</a></li>
+						<li><a class="navigation__item"  href="#">Contact</a></li>
 					</ul>
+
 				</nav>
 
 				<div class="social-links">
 					<a href="#"><i class="fab fa-facebook-f"></i></a>
 					<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-behance"></i></a>
+					<a href="#" class="btn">Get Started</a>
 				</div>
 
-				<a href="#" class="btn">Get Started</a>
 			</div>
 		</div><!-- //.header-top -->
 
@@ -170,13 +198,13 @@
 	
 	<footer>
 		<div class="wrapper">
-			<div class="footer-block">
+			<div class="footer-widget">
 				<a class="logo" href="/"></a>
 				<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim ad minim veniam.</p>
 			</div>
 
-			<div class="footer-block">
-				<div class="block__title">Link</div>
+			<div class="footer-widget">
+				<div class="widget__title">Link</div>
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
@@ -186,8 +214,8 @@
 
 			</div>
 
-			<div class="footer-block">
-				<div class="block__title">Solutions</div>
+			<div class="footer-widget">
+				<div class="widget__title">Solutions</div>
 				<ul>
 					<li><a href="#">Design</a></li>
 					<li><a href="#">Development</a></li>
@@ -196,11 +224,11 @@
 				</ul>
 			</div>
 
-			<div class="footer-block">
-				<div class="block__title">Contact</div>
-				<p>Phone : +01222131344</p>
-				<p>Email : <a href="mailto:Businessmail@mail.com">Businessmail@mail.com</a></p>
-				<p>Adress :  North area 1217 new park.</p>
+			<div class="footer-widget">
+				<div class="widget__title">Contact</div>
+				<p><strong>Phone</strong> : +01222131344</p>
+				<p><strong>Email</strong> : <a href="mailto:Businessmail@mail.com">Businessmail@mail.com</a></p>
+				<p><strong>Adress</strong> :  North area 1217 new park.</p>
 			</div>
 
 		</div><!-- //.wrapper -->

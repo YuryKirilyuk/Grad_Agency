@@ -1,21 +1,17 @@
-
 /* colors */
 
 $white: #fff;
 $black: #000;
 $dark: #2d2d43;
-$red: #ff2d2d;
 $blue: #4451fc;
 $grey: #656770;
 $grey-dark: #404250;
 $grey-light: #ccc;
 
 $main-color: $black;
-$main-color2: $red;
 $link-color: $main-color;
 
 /* main variables */
-
 
 $min-width: 320px; 
 $max-width: 1230px;
@@ -24,7 +20,6 @@ $base-font-size: 1.6rem;
 $base-line-height: 1.8rem; 
 $base-font-family: 'Poppins', sans-serif;
 $custom-font-family: 'Lato', sans-serif;
-
 
 //text, titles
 $text-color: #696969;
@@ -41,7 +36,8 @@ $line-height-h3: 6rem;
 $font-size-h4: 1.6rem;
 $line-height-h4: 6rem;
 
-$headerHeight: 92rem;
+$headerTopHeight: 11rem;
+$headerHeight: 75rem;
 $footerHeight: 8rem;
 
 $default-transition: all .2s linear;

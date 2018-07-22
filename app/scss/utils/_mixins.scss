@@ -1,38 +1,3 @@
-@mixin center_transform() {
-	position:absolute;
-	left:50%;top:50%;
-	-o-transform:translate(-50%, -50%);
-	-ms-transform:translate(-50%, -50%);
-	-moz-transform:translate(-50%, -50%);
-	-webkit-transform:translate(-50%, -50%);
-	transform:translate(-50%, -50%);
-}
-
-@mixin vertical_center_transform() {
-	position:absolute;
-	left:0;top:50%;
-	width: 100%;
-	-o-transform:translate(0, -50%);
-	-ms-transform:translate(0, -50%);
-	-moz-transform:translate(0, -50%);
-	-webkit-transform:translate(0, -50%);
-	transform:translate(0, -50%);
-}
-
-@mixin button($button-bg, $button-border, $button-border-color, $button-pad, $button-size, $button-line-height, $height-button, $button-radius) {
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 0 0 0;
-	padding: 10px $button-pad 0 $button-pad;
-	background: $button-bg;
-	border: $button-border solid $button-border-color;
-	font-size: $button-size;
-	line-height: $button-line-height;
-	height: $height-button;
-	position: relative;
-	@include radius($button-radius);
-}
-
 @mixin font($font-s, $font-h, $font-c) {
 	font-size: $font-s;
 	line-height: $font-h;
@@ -48,10 +13,14 @@
   display: inline-block;
   max-width: 100%;
   overflow: hidden;
-  -webkit-text-overflow: $arg;
-  -ms-text-overflow: $arg;
-  -o-text-overflow: $arg;
   text-overflow: $arg;
   vertical-align: top;
   white-space: nowrap;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder { @content; }
+	&:-moz-placeholder           { @content; }
+	&::-moz-placeholder          { @content; }
+	&:-ms-input-placeholder      { @content; }
 }

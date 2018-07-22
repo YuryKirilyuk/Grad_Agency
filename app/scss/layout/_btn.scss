@@ -1,3 +1,15 @@
 .btn {
-	
-}
+  background: none;
+	border: 2px solid $white;
+  font-family: $custom-font-family;
+  font-weight: 700;
+  padding: 1.5rem 3rem;
+  position: relative;
+  text-decoration: none;
+  transition: $default-transition;
+  white-space: nowrap;
+  &:hover {
+    background: $white;
+    color: $blue;
+  }
+}//.btn
