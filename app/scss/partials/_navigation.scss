@@ -92,10 +92,16 @@
   &__item {
     @extend %link-hover;
     @media screen and (max-width: 768px) {
-      padding: 1.5rem 0;
+      font-size: 2.5rem;
+      padding: 2rem 0;
+    }
+  }//.navigation__item
+
+  .fas {
+    font-size: 1rem;
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
     }
   }
-
-  .fas {font-size: 1rem;}
 
 }//.navigation

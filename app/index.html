@@ -22,7 +22,7 @@
 
 	<main class="content">
 
-			<section class="service">
+			<section class="service" id="service">
 				<div class="wrapper">
 					<div class="item">
 						<div class="item__image">
@@ -64,7 +64,7 @@
 			</section><!-- //.service -->
 
 
-			<section class="about">
+			<section class="about" id="about">
 				<div class="wrapper">
 					<h4 class="center">About us</h4>
 					<h2>We're a design studio that believe in the power of great ideas.</h2>
@@ -91,21 +91,42 @@
 			</section>
 
 
-			<section class="works">
+			<section class="works" id="works">
 				<div class="wrapper">
 					<h4 class="left">our works</h4>
 					<h2>Bring to better disruptive view of innovation. </h2>
 				</div><!-- //.wrapper -->
-				<div class="slider">
-					<ul>
-						<li></li>
-					</ul>
 
-				</div>
+				<div class="slider">
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+					<div class="slider__item">
+						<div class="item__content">Content</div>
+						<div class="item__title">Work Title</div>
+					</div>
+				</div><!-- //.slider -->
 			</section>
 
 
-			<section class="clients">
+			<section class="clients" id="clients">
 				<div class="wrapper">
 					<ul class="clients__list">
 						<li><img alt="" src="img/dm4__client_01-min.png" /></li>
@@ -119,7 +140,7 @@
 			</section><!-- //.clients -->
 
 
-			<section class="contact">
+			<section class="contact" id="contact">
 				<div class="wrapper">
 					<div>
 						<h4 class="left">Have a Project?</h4>
@@ -152,24 +173,24 @@
 
 <!-- BEGIN HEADER -->
 
-	<header>
+	<header id="home">
 		<div class="header-top">
 			<div class="wrapper">
 				<a class="logo" href="/"></a>
 				<nav class="navigation">
-					<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-					<label for="navi-toggle" class="navigation__button">
+					<input type="checkbox" class="navigation__checkbox" id="navToggle" />
+					<label for="navToggle" class="navigation__button">
 						<span class="navigation__icon"></span>
 					</label>
 
 					<ul class="navigation__list">
-						<li><a class="navigation__item" href="/">Home</a></li>
-						<li><a class="navigation__item"  href="#">Pages</a> <i class="fas fa-chevron-down"></i></li>
-						<li><a class="navigation__item"  href="#">About</a></li>
-						<li><a class="navigation__item"  href="#">Service</a> <i class="fas fa-chevron-down"></i></li>
-						<li><a class="navigation__item"  href="#">Portfolio</a></li>
-						<li><a class="navigation__item"  href="#">Blog</a></li>
-						<li><a class="navigation__item"  href="#">Contact</a></li>
+						<li><a class="navigation__item" href="#home">Home</a></li>
+						<li><a class="navigation__item" href="#">Pages</a> <i class="fas fa-chevron-down"></i></li>
+						<li><a class="navigation__item" href="#about">About</a></li>
+						<li><a class="navigation__item" href="#service">Service</a> <i class="fas fa-chevron-down"></i></li>
+						<li><a class="navigation__item" href="#works">Portfolio</a></li>
+						<li><a class="navigation__item" href="#">Blog</a></li>
+						<li><a class="navigation__item" href="#contact">Contact</a></li>
 					</ul>
 
 				</nav>

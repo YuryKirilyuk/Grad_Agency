@@ -40,5 +40,8 @@
       background: none;
       color: #fff;
     }
-  }
+    @media screen and (max-width: 320px){
+      padding: 1.5rem 1rem;
+    }
+  }//.btn
 }//.header-top
